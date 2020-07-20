@@ -1,0 +1,24 @@
+PODS:
+  - EasyNavigation (1.0.5)
+  - WKNavController (0.1.0):
+    - EasyNavigation (~> 1.0)
+
+DEPENDENCIES:
+  - EasyNavigation (~> 1.0)
+  - WKNavController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - EasyNavigation
+
+EXTERNAL SOURCES:
+  WKNavController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyNavigation: 3414769a995d032e5dd9441f2bdd4eda7dd10089
+  WKNavController: 4229501cf16ab3c40a07570931a5fbb123c56871
+
+PODFILE CHECKSUM: 5c407eaa42faa67bff3ee6cb94502d82db1aecea
+
+COCOAPODS: 1.9.1

@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'WKNavController_Example' do
   pod 'WKNavController', :path => '../'
-
+  pod 'EasyNavigation','~>1.0'
   target 'WKNavController_Tests' do
     inherit! :search_paths
 

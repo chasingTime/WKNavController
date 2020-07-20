@@ -1,0 +1,27 @@
+{
+  "name": "WKNavController",
+  "version": "0.1.0",
+  "summary": "A short description of WKNavController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chasingTime/WKNavController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2503966178@qq.com": "2820843854@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/chasingTime/WKNavController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKNavController/**/*",
+  "dependencies": {
+    "EasyNavigation": [
+      "~>1.0"
+    ]
+  }
+}

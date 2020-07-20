@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2503966178@qq.com/WKNavController'
+  s.homepage         = 'https://github.com/chasingTime/WKNavController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2503966178@qq.com' => '2820843854@qq.com' }
-  s.source           = { :git => 'https://github.com/2503966178@qq.com/WKNavController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chasingTime/WKNavController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WKNavController/Classes/**/*'
+  s.source_files = 'WKNavController/**/*'
   
   # s.resource_bundles = {
   #   'WKNavController' => ['WKNavController/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'EasyNavigation','~>1.0'
 end

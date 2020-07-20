@@ -1,0 +1,6 @@
+framework module WKNavController {
+  umbrella header "WKNavController-umbrella.h"
+
+  export *
+  module * { export * }
+}
